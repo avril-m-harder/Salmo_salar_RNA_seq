@@ -10,6 +10,10 @@ cd $PBS_O_WORKDIR
 module purge
 module load hisat2/2.1.0
 
+## build index file for reference genome
+hisat2-build -p 20 /scratch/snyder/h/harder/ssalar_genome_and_annotation_files/simple_names_chroms_scaf_MT.fa simple_names_chroms_scaf_MT
+
+## map reads to reference genome
 hisat2 --dta --time --threads 20 \
 -S hisat2_7-b.sam \
 -x simple_names_chroms_scaf_MT \
