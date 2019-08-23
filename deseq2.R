@@ -72,6 +72,7 @@ hist(res$padj, breaks=20, col="grey")
 ## samples for genes with small counts, and which normalizes with respect to library size
 rld <- rlog(dds)
 head(assay(rld))
+save.image("through_logxform.RData")
 
 ## calculate Euclidean distances between all samples to examine overall similarity
 sampleDists <- dist(t(assay(rld)))
