@@ -8,3 +8,5 @@ In run order:
 3. stringtie_example.sh: Assembles transcripts for each sample, merges all transcripts from all samples and the reference annotation, and compares assembled sample transcripts to known transcripts. Writes merged GTF file.
 
 4. feature_counts.sh: Generates text file with count matrix for all samples using sorted BAM files and merged GTF file.
+
+5. deseq2.R: Conducts differential gene expression analyses using DESeq2 in R. Requires count matrix generated with featureCounts and CSV file of sample information (i.e., family, treatment, sample name).
