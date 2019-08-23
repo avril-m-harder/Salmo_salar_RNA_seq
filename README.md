@@ -1,5 +1,8 @@
 # Salmo_salar_RNA_seq
-In run order:
+
+# These scripts comprise an analysis pipeline for differential expression, weighted gene co-expression network, and gene ontology overrepresentation analyses of RNA-seq data and survival analyses.
+
+Run order for RNA-seq data:
 
 1. hisat2.sh: Builds HISAT2 index for reference genome and maps reads to reference genome. Outputs SAM file per sample.
 
