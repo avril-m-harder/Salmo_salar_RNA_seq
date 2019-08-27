@@ -14,5 +14,7 @@ Run order for RNA-seq data:
 
 5. deseq2.R: Conducts differential gene expression analyses using DESeq2 in R. Requires count matrix generated with featureCounts and CSV file of sample information (i.e., family, treatment, sample name).
 
+6. wgcna.R: Constructs weighted gene co-expression network analysis using normalized counts written from DESeq2.
+
 #### A script is also included for survival analyses using mortality data.
 
