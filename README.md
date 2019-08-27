@@ -18,3 +18,4 @@ Run order for RNA-seq data:
 
 #### A script is also included for survival analyses using mortality data.
 
+survival_analysis.R: Fits Cox proportional hazards regression model to get hazard ratio values for genetic families.
