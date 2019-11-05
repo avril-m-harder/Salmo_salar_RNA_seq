@@ -6,6 +6,8 @@
 ##
 ## all_vs_13.csv includes family IDs and hazard ratio information, which can be calculated
 ## using survival_analysis.R
+##
+## permutation loop written by J. Willoughby
 
 setwd("/scratch/snyder/h/harder/ASperm_permutations/log_haz_values_incl_y_val_cals/")
 load("permutation_env.RData")
