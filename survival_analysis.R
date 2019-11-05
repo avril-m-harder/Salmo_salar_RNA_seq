@@ -1,5 +1,5 @@
 ## Survival analyses for S. salar - 2017 spawning
-## Some code written by C. Searle
+## Modified from code written by C. Searle
 
 library(OIsurv);library(survival);library(KMsurv);library(survsim);library(broom);library(plyr);library(dplyr);library(ggfortify);library(ggplot2);library(gridExtra);library(survminer)
 
