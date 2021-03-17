@@ -2,7 +2,7 @@
 
 #### These scripts comprise an analysis pipeline for differential expression, weighted gene co-expression network, and gene ontology overrepresentation analyses of RNA-seq data.
 
-##### Corresponding article: | Harder, AM, Willoughby, JR, Ardren, WR, Christie, MR. Among‐family variation in survival and gene expression uncovers adaptive genetic variation in a threatened fish. Mol Ecol. 2020; 29: 1035–1049. https://doi.org/10.1111/mec.15334
+##### Corresponding article: Harder, AM, Willoughby, JR, Ardren, WR, Christie, MR. Among‐family variation in survival and gene expression uncovers adaptive genetic variation in a threatened fish. Mol Ecol. 2020; 29: 1035–1049. https://doi.org/10.1111/mec.15334
 
 Run order for RNA-seq data:
 
